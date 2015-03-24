@@ -25,6 +25,11 @@ require_once('Alumno.php');
 	$asignatura1->insertar_nota(6);
 	$asignatura1->insertar_nota(2);
 
+	$asignatura2->insertar_nota(7);
+	$asignatura2->insertar_nota(4);
+	$asignatura2->insertar_nota(9);
+	$asignatura2->insertar_nota(6);
+
 	$alumno1 = new Alumno("Ricardo","Fernandez García","10342289K");
 	$alumno2 = new Alumno("Cecilia","Perez Alonso","71239145C");
 	$alumno3 = new Alumno("Gustavo","Ruiz García","45678901E");
