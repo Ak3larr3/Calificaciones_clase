@@ -34,7 +34,7 @@ class Asignatura{
 			$suma_notas += $nota;
 		}
 
-		if(count($this->notas)<0){
+		if(count($this->notas)>0){
 			$total_notas = count($this->notas);
 
 		}else{
